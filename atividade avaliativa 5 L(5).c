@@ -19,7 +19,7 @@ int main(){
 	
 	system("cls");
 	
-	sexo == 'M' ? printf("Seu sexo é masculino.\n") : printf("Seu sexo é feminino.\n");
+	sexo == 'M' ? printf("Sexo masculino.\n") : printf("Sexo feminino.\n");
 		
 	system("pause");
     return 0;
