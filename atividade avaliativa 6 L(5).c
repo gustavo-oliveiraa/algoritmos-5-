@@ -1,15 +1,15 @@
-/*6. Desenvolva um programa em C que apresente um menu de opÁıes numa janela ìbemî amig·vel ao
-usu·rio, onde este dever· escolher qual a regi„o do Brasil que ele gostaria de conhecer. ApÛs o usu·rio
-informar esta regi„o, limpe toda a janela e escreva no meio dela qual foi a opÁ„o do usu·rio. Lembrando
-que as regiıes dever„o ser apresentadas conforme o seguinte menu de opÁıes:
-Menu de OpÁıes
+/*6. Desenvolva um programa em C que apresente um menu de op√ß√µes numa janela ‚Äúbem‚Äù amig√°vel ao
+usu√°rio, onde este dever√° escolher qual a regi√£o do Brasil que ele gostaria de conhecer. Ap√≥s o usu√°rio
+informar esta regi√£o, limpe toda a janela e escreva no meio dela qual foi a op√ß√£o do usu√°rio. Lembrando
+que as regi√µes dever√£o ser apresentadas conforme o seguinte menu de op√ß√µes:
+Menu de Op√ß√µes
 ============
-1 ñ Norte
-2 ñ Nordeste
-3 ñ Centro-Oeste
-4 ñ Sudeste
-5 ñ Sul
-0 ñ Sair do programa*/
+1 ‚Äì Norte
+2 ‚Äì Nordeste
+3 ‚Äì Centro-Oeste
+4 ‚Äì Sudeste
+5 ‚Äì Sul
+0 ‚Äì Sair do programa*/
 
 #include<stdio.h>
 #include<locale.h>
@@ -21,40 +21,40 @@ int main(){
 	setlocale(LC_ALL, "Portuguese");
 	int numero;
 	
-	printf("Menu de OpÁıes:\n");
+	printf("Menu de Op√ß√µes:\n");
 	printf("=============\n");
-	printf("1 ñ Norte.\n");
-	printf("2 ñ Nordeste.\n");
-	printf("3 ñ Centro-Oeste.\n");
-	printf("4 ñ Sudeste.\n");
-	printf("5 ñ Sul.\n");
-	printf("0 ñ Sair do programa.\n");
+	printf("1 ‚Äì Norte.\n");
+	printf("2 ‚Äì Nordeste.\n");
+	printf("3 ‚Äì Centro-Oeste.\n");
+	printf("4 ‚Äì Sudeste.\n");
+	printf("5 ‚Äì Sul.\n");
+	printf("0 ‚Äì Sair do programa.\n");
 
 	do{
 	
-		printf("\nDigite a n˙meraÁ„o da regi„o que deseja conhecer:");
+		printf("\nDigite a n√∫mera√ß√£o da regi√£o que deseja conhecer:");
 		scanf("%d", &numero);
 		fflush(stdin);
 	
 		system("cls");
 	
 		if(numero == 1)
-			printf("\t \t \t \t \tSua opÁ„o foi a 1, regi„o Norte!\n");
+			printf("\t \t \t \t \tSua op√ß√£o foi a 1, regi√£o Norte!\n");
 				else if(numero == 2)
-					printf("\t \t \t \t \tSua opÁ„o foi a 2, regi„o Nordeste!\n");
+					printf("\t \t \t \t \tSua op√ß√£o foi a 2, regi√£o Nordeste!\n");
 						else if(numero == 3)
-							printf("\t \t \t \t \tSua opÁ„o foi a 3, regi„o Centro-Oeste!\n");
+							printf("\t \t \t \t \tSua op√ß√£o foi a 3, regi√£o Centro-Oeste!\n");
 								else if(numero == 4)
-									printf("\t \t \t \t \tSua opÁ„o foi a 4, regi„o Sudeste!\n");
+									printf("\t \t \t \t \tSua op√ß√£o foi a 4, regi√£o Sudeste!\n");
 										else if(numero == 5)
-											printf("\t \t \t \t \tSua opÁ„o foi a 5, regi„o Sul!\n");
+											printf("\t \t \t \t \tSua op√ß√£o foi a 5, regi√£o Sul!\n");
 												else if(numero==0)
 													printf("\t \t \t \t \tSaindo do programa...\n");
 														else
-	 														printf("\t \t \t \t \tN˙mero n„o encontrado, no programa.\n");
+	 														printf("\t \t \t \t \tN√∫mero n√£o encontrado, no programa.\n");
 	
 	}while(numero!=0);
 	
-	system("pause");
+    system("pause");
     return 0;
 }
