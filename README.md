@@ -1,2 +1,2 @@
-# algoritmos-5--
+# algoritmos-5-
 tarefas avaliativas(5)
