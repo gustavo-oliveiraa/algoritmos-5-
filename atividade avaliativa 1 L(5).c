@@ -1,5 +1,5 @@
-/*1. Elabore um programa que solicite ao usu·rio um valor percentual a ser calculado. Este c·lculo dever·
-ocorrer sobre um valor constante igual a 555. O programa dever· calcular o percentual desejado e
+/*1. Elabore um programa que solicite ao usu√°rio um valor percentual a ser calculado. Este c√°lculo dever√°
+ocorrer sobre um valor constante igual a 555. O programa dever√° calcular o percentual desejado e
 apresentar o resultado calculado deste percentual.*/
 
 #include<stdio.h>
@@ -20,17 +20,6 @@ int main(){
 	
 	printf("%.0f%% de 555 = %.2f\n", percentual, porcentagem);
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	system("pause");
+    system("pause");
     return 0;
 }
